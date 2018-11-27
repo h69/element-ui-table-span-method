@@ -1,0 +1,16 @@
+{
+  "name": "element-ui-table-span-method",
+  "version": "1.0.2",
+  "description": "Element UI el-table's attribute \"span-method\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adamearth Huang",
+  "license": "MIT",
+  "keywords": [
+    "element-ui",
+    "el-table",
+    "span-method"
+  ]
+}
