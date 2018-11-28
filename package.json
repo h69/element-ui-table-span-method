@@ -1,6 +1,6 @@
 {
   "name": "element-ui-table-span-method",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Element UI el-table's attribute \"span-method\"",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,13 @@
     "element-ui",
     "el-table",
     "span-method"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamearthhuang/element-ui-table-span-method.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adamearthhuang/element-ui-table-span-method/issues"
+  },
+  "homepage": "https://github.com/adamearthhuang/element-ui-table-span-method#readme"
 }
