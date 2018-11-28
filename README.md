@@ -29,22 +29,6 @@ import { spanRow } from 'element-ui-table-span-method'
 * `data` 形如 `{ field1, field2, field3, ... }` 的对象数组。
 * `option` 形如 `{ index: 第几列, filed: '合并字段' }` 的对象数组。
 
-
-## 范例
-
-<table>
-  <thead>
-     <tr><th>group</th><th>member</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>A</td><td>a</td></tr>
-    <tr><td>A</td><td>b</td></tr>
-    <tr><td>A</td><td>c</td></tr>
-  </tbody>
-</table>
-
-↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-
 <table>
   <thead>
      <tr><th>group</th><th>member</th></tr>
@@ -56,6 +40,7 @@ import { spanRow } from 'element-ui-table-span-method'
   </tbody>
 </table>
 
+## 范例
 ```html
 <template>
   <el-table :span-method="onSpanMethod"></el-table>
