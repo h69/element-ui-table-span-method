@@ -43,7 +43,9 @@ import { spanRow } from 'element-ui-table-span-method'
 ## 范例
 ```html
 <template>
-  <el-table :span-method="onSpanMethod"></el-table>
+  <el-table :span-method="onSpanMethod">
+    ...
+  </el-table>
 </template>
 
 <script>
