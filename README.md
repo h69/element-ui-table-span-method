@@ -26,8 +26,8 @@ import { spanRow } from 'element-ui-table-span-method'
 #### spanRow({ row, column, rowIndex, columnIndex }, data, option)
 纵向合并单元格，即一个单元格占据多行。
 * `{ row, column, rowIndex, columnIndex }` 由 el-table 的属性 `span-method` 的回调方法的参数传入。
-* `data` 形如 `{ field1, field2, field3, ... }` 的对象数组。
-* `option` 形如 `{ index: 第几列, filed: '合并字段' }` 的对象数组。
+* `data` 形如 `[{ field1: value1, field2: value2, field3: value3, ... }]` 的对象数组。
+* `option` 形如 `[{ index: 第几列, filed: '合并字段' }]` 的对象数组。
 
 <table>
   <thead>
