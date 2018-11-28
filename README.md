@@ -18,7 +18,7 @@ npm install element-ui-table-span-method --save
 ```
 
 ## 使用
-```
+```javascript
 import { spanRow } from 'element-ui-table-span-method'
 ```
 
@@ -43,7 +43,20 @@ import { spanRow } from 'element-ui-table-span-method'
   </tbody>
 </table>
 
-```
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+<table>
+  <thead>
+     <tr><th>group</th><th>member</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">A</td><td>a</td></tr>
+    <tr><td>b</td></tr>
+    <tr><td>c</td></tr>
+  </tbody>
+</table>
+
+```html
 <template>
   <el-table :span-method="onSpanMethod"></el-table>
 </template>
@@ -73,14 +86,3 @@ onSpanMethod({ row, column, rowIndex, columnIndex }) {
 
 </script>
 ```
-
-<table>
-  <thead>
-     <tr><th>group</th><th>member</th></tr>
-  </thead>
-  <tbody>
-    <tr><td rowspan="3">A</td><td>a</td></tr>
-    <tr><td>b</td></tr>
-    <tr><td>c</td></tr>
-  </tbody>
-</table>
