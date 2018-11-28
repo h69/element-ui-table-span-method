@@ -47,7 +47,7 @@ import { spanRow } from 'element-ui-table-span-method'
 </template>
 
 <script>
-import { span } from 'element-ui-table-span-method'
+import { spanRow } from 'element-ui-table-span-method'
 
 ...
 
