@@ -29,17 +29,6 @@ import { spanRow } from 'element-ui-table-span-method'
 * `data` 形如 `[{ field1: value1, field2: value2, field3: value3, ... }]` 的对象数组。
 * `option` 形如 `[{ index: 第几列, filed: '合并字段' }]` 的对象数组。
 
-<table>
-  <thead>
-     <tr><th>group</th><th>member</th></tr>
-  </thead>
-  <tbody>
-    <tr><td rowspan="3">A</td><td>a</td></tr>
-    <tr><td>b</td></tr>
-    <tr><td>c</td></tr>
-  </tbody>
-</table>
-
 ## 范例
 ```html
 <template>
@@ -73,3 +62,14 @@ onSpanMethod({ row, column, rowIndex, columnIndex }) {
 
 </script>
 ```
+
+<table>
+  <thead>
+     <tr><th>group</th><th>member</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">A</td><td>a</td></tr>
+    <tr><td>b</td></tr>
+    <tr><td>c</td></tr>
+  </tbody>
+</table>
