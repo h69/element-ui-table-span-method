@@ -66,7 +66,7 @@ option = [
 ...
 
 onSpanMethod({ row, column, rowIndex, columnIndex }) {
-  spanRow({ row, column, rowIndex, columnIndex }, this.data, this.option)
+  return spanRow({ row, column, rowIndex, columnIndex }, this.data, this.option)
 }
 
 ...
