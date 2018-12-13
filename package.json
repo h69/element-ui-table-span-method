@@ -1,7 +1,7 @@
 {
   "name": "element-ui-table-span-method",
-  "version": "1.0.8",
-  "description": "Element UI (Vue.js) el-table's attribute \"span-method\".",
+  "version": "1.0.9",
+  "description": "Vue.js Element-UI el-table's attribute \"span-method\".",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
