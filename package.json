@@ -1,6 +1,6 @@
 {
   "name": "element-ui-table-span-method",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Vue.js Element-UI el-table's attribute \"span-method\".",
   "main": "index.js",
   "scripts": {
