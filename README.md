@@ -8,7 +8,7 @@
 
 <h2 align="center">element-ui-table-span-method</h2>
 
-Element UI 表格单元格动态合并模块，适用于 [el-table](https://element.eleme.io/#/zh-CN/component/table) 的 `span-method` 属性。
+Element UI （Vue.js）表格单元格动态合并模块，适用于 [el-table](https://element.eleme.io/#/zh-CN/component/table) 的 `span-method` 属性。
 
 ---
 
