@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://npmcharts.com/compare/element-ui-table-span-method?minimal=true"><img src="https://img.shields.io/npm/dm/element-ui-table-span-method.svg" alt="downloads"></a>
   <a href="https://www.npmjs.com/package/element-ui-table-span-method"><img src="https://img.shields.io/npm/v/element-ui-table-span-method.svg" alt="version"></a>
-  <a href="https://github.com/adamearthhuang/element-ui-table-span-method/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/element-ui-table-span-method.svg" alt="license"></a>
+  <a href="https://github.com/h69/element-ui-table-span-method/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/element-ui-table-span-method.svg" alt="license"></a>
 </p>
 
 <h2 align="center">element-ui-table-span-method</h2>

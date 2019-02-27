@@ -1,12 +1,12 @@
 {
   "name": "element-ui-table-span-method",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Vue.js Element-UI el-table's attribute \"span-method\".",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Adamearth Huang",
+  "author": "",
   "license": "MIT",
   "keywords": [
     "element-ui",
@@ -15,10 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adamearthhuang/element-ui-table-span-method.git"
+    "url": "git+https://github.com/h69/element-ui-table-span-method.git"
   },
   "bugs": {
-    "url": "https://github.com/adamearthhuang/element-ui-table-span-method/issues"
+    "url": "https://github.com/h69/element-ui-table-span-method/issues"
   },
-  "homepage": "https://github.com/adamearthhuang/element-ui-table-span-method#readme"
+  "homepage": "https://github.com/h69/element-ui-table-span-method#readme"
 }
