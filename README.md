@@ -8,7 +8,7 @@
 
 <h2 align="center">element-ui-table-span-method</h2>
 
-Vue.js Element-UI [el-table](https://element.eleme.io/#/en-US/component/table) for `span-method`.
+Vue.js Element-UI [el-table](https://element.eleme.io/#/en-US/component/table)'s attribute `span-method`.
 
 ---
 
@@ -23,7 +23,7 @@ import { spanRow } from 'element-ui-table-span-method'
 ```
 
 ## API
-#### .spanRow({ row, column, rowIndex, columnIndex }, data, option)
+#### spanRow({ row, column, rowIndex, columnIndex }, data, option)
 Span table's row.
 
 ```html
