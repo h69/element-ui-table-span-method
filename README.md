@@ -8,28 +8,24 @@
 
 <h2 align="center">element-ui-table-span-method</h2>
 
-Vue.js Element-UI 表格单元格动态合并模块，适用于 [el-table](https://element.eleme.io/#/zh-CN/component/table) 的 `span-method` 属性。
+Vue.js Element-UI [el-table](https://element.eleme.io/#/en-US/component/table) for `span-method`.
 
 ---
 
-## 安装
+## Installing
 ```
-npm install element-ui-table-span-method --save
+npm install element-ui-table-span-method 
 ```
 
-## 使用
+## Usage
 ```javascript
 import { spanRow } from 'element-ui-table-span-method'
 ```
 
-## 方法
-#### spanRow({ row, column, rowIndex, columnIndex }, data, option)
-纵向合并单元格，即一个单元格占据多行。
-* `{ row, column, rowIndex, columnIndex }` 由 el-table 的属性 `span-method` 的回调方法的参数传入。
-* `data` 形如 `[{ field1: value1, field2: value2, field3: value3, ... }]` 的对象数组。
-* `option` 形如 `[{ index: 第几列, filed: '合并字段' }]` 的对象数组。
+## API
+#### .spanRow({ row, column, rowIndex, columnIndex }, data, option)
+Span table's row.
 
-## 范例
 ```html
 <template>
   <el-table :span-method="onSpanMethod">
@@ -43,13 +39,16 @@ import { spanRow } from 'element-ui-table-span-method'
 ...
 
 data = [
-  { group: 'A', member: 'a' },
-  { group: 'A', member: 'b' },
-  { group: 'A', member: 'c' },
+  { field1: 'A', field2: 'B', field3: '1' },
+  { field1: 'A', field2: 'B', field3: '2' },
+  { field1: 'A', field2: 'C', field3: '3' },
 ]
 
+...
+
 option = [
-  { index: 0, field: 'group' }
+  { index: 0, field: 'field1' },
+  { index: 1, field: 'field2' },
 ]
 
 ...
@@ -65,11 +64,24 @@ onSpanMethod({ row, column, rowIndex, columnIndex }) {
 
 <table>
   <thead>
-     <tr><th>group</th><th>member</th></tr>
+    <tr>
+      <th>field1</th>
+      <th>field2</th>
+      <th>field3</th>
+    </tr>
   </thead>
   <tbody>
-    <tr><td rowspan="3">A</td><td>a</td></tr>
-    <tr><td>b</td></tr>
-    <tr><td>c</td></tr>
+    <tr>
+      <td rowspan="3">A</td>
+      <td rowspan="2">B</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>3</td>
+    </tr>
   </tbody>
 </table>
