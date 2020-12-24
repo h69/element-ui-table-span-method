@@ -68,8 +68,7 @@ export default {
 };
 </script>
 ```
-<div style="display:flex; justify-content:center;">
-<div>
+
 <table >
   <thead>
     <tr>
@@ -96,13 +95,9 @@ export default {
     </tr>
   </tbody>
 </table>
-</div>
 
-<div style="display:flex; justify-content:center; align-items:center; width:20%;">
-→
-</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↓
 
-<div>
 <table>
   <thead>
     <tr>
@@ -126,5 +121,3 @@ export default {
     </tr>
   </tbody>
 </table>
-</div>
-</div>
